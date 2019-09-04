@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  aria2:
+    build: .
+    ports:
+      - 6800:6800
+    container_name: aria2
+    volumes:
+      - '$PWD/config:/home/aria2/.aria2'
+      - '$PWD/files:/home/aria2/files'

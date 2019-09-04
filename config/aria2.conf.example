@@ -1,0 +1,5 @@
+disable-ipv6=true
+enable-rpc=true
+rpc-listen-all=true
+rpc-secret=<SECRET>
+dir=/home/aria2/files
